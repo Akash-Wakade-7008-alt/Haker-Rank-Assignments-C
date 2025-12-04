@@ -3,6 +3,15 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+Input Format:
+Three space-separated integers: {hours} {minutes} {seconds}
+
+Output Format:
+Single line printing the result as:
+Total seconds: {res}
+*/
+
 int toSeconds(int hours,int minutes,int seconds){
     
     hours=hours*3600;
