@@ -13,10 +13,6 @@
 // Single line printing the result as: The number is: {(ABCD)*5}
 // Sample Input 0
 
-
-
-
-
 int buildNumber(int num_1,int num_2,int num_3,int num_4)
 {
 int combinedNumber=num_1*1000+num_2*100+num_3*10+num_4;
