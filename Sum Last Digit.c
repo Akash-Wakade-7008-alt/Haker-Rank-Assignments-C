@@ -3,6 +3,13 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+Input Format
+Two integers: {a} {b}
+
+Output Format
+Single line printing the result as: The sum of last digits is: {res}
+*/
 
 int main() {
 
