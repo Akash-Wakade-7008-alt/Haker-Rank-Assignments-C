@@ -3,6 +3,15 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+Expected Input:
+Two lowerCase characters {char 1} and {char 2} seperated by space
+
+Ecpected Output:
+Single line printing the result as :
+The distance between {char 1} and {char 2] is {value}
+*/
+
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
