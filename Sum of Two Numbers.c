@@ -3,6 +3,14 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+Input Format
+Two unique integers a and b.
+
+Output Format
+Single line printing the result as: The sum of {a} and {b} is {sum}.
+*/
+
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
