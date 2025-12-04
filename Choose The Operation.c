@@ -21,7 +21,7 @@ Result is:
 int main()
 {
     
-    int operation=0,num_1=0,num_2=0,res;
+    int operation=0,num_1=0,num_2=0,res=0;
     
     printf("Choose an operation:\n");
     printf("1.Addition:\n");
@@ -30,7 +30,12 @@ int main()
     printf("4.Division:\n");
     
      scanf("%d",&operation);
-     
+
+if(operation<1 || operation>4){
+ printf("The input is invalid,Please try again");
+ return 0;
+}
+ 
      printf("Enter The First Number\n");
      scanf("%d",&num_1);
      
@@ -49,14 +54,10 @@ int main()
          res=num_1*num_2;
      }
      
-     else if(operation==4){
+     else(operation==4){
          res=num_1/num_2;
      }
      
-     else{
-         printf("Invalid Number,Choose between 1 and 4");
-     }
-     
-     printf("%d",res);
+     printf("The Result is: %d",res);
     return 0;
 }
