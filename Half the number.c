@@ -15,6 +15,6 @@ int main() {
     
     scanf("%d",&num);
     float res=num/2.00;
-    printf("Half of %d is %.2f",num,res);
+    printf("Half of %d is %.2f",num,res);  //%.2f->denotes that there will be only two numbers after decimal
     return 0;
 }
