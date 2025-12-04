@@ -3,6 +3,15 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+Input Format:
+A single lowercase character charLower.
+
+Output Format:
+A single line in the format:
+The uppercase of {charLower} is {charUpper}
+*/
+
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
