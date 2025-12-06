@@ -23,3 +23,23 @@ char alphabet_2=alphabet_1-32;
 
     return 0;
 }
+
+
+// Sample Input 0
+
+// a
+// Sample Output 0
+
+// The uppercase of a is A
+// Sample Input 1
+
+// z
+// Sample Output 1
+
+// The uppercase of z is Z
+// Sample Input 2
+
+// g
+// Sample Output 2
+
+// The uppercase of g is G
