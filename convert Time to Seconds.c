@@ -32,5 +32,20 @@ int main(){
     int result=toSeconds(hoursToSeconds,minutesToSeconds,seconds);
     
     printf("Total seconds: %d",result);
+    
     return 0;
     }
+
+
+// Sample Input 0
+
+// 1 0 0
+// Sample Output 0
+
+// Total seconds: 3600
+// Sample Input 1
+
+// 0 10 30
+// Sample Output 1
+
+// Total seconds: 630
