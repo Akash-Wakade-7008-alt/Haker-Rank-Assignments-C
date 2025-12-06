@@ -31,3 +31,24 @@ int main() {
    
     return 0;
 }
+
+
+// Sample Input 0
+
+// 1 2 3 4
+// Sample Output 0
+
+// The number is: 6170
+// Sample Input 1
+
+// 9 0 7 1
+// Sample Output 1
+
+// The number is: 45355
+
+
+
+
+
+
+
