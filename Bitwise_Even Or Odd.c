@@ -19,3 +19,16 @@ int main() {
     }
     return 0;
 }
+
+// Sample Input 0
+
+// 4        
+// Sample Output 0
+
+// Even
+// Sample Input 1
+
+// 19
+// Sample Output 1
+
+// Odd
