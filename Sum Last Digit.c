@@ -26,3 +26,16 @@ int main() {
     
     return 0;
 }
+
+// Sample Input 0
+
+// 42 59
+// Sample Output 0
+
+// The sum of last digits is: 11
+// Sample Input 1
+
+// 100 9
+// Sample Output 1
+
+// The sum of last digits is: 9
