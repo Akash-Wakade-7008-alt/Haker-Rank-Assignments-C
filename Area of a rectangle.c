@@ -25,3 +25,18 @@ int main() {
     
     return 0;
 }
+
+
+
+// Sample Input 0
+
+// 5 4
+// Sample Output 0
+
+// The area is: 20 units
+// Sample Input 1
+
+// 10 4
+// Sample Output 1
+
+// The area is: 40 units
