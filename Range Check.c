@@ -22,3 +22,22 @@ int n=0,low=0,high=0;
     }
     return 0;
 }
+
+// Sample Input 0
+
+// 10 5 20
+// Sample Output 0
+
+// In Range
+// Sample Input 1
+
+// 4 5 10
+// Sample Output 1
+
+// Out of Range
+// Sample Input 2
+
+// 15 15 30
+// Sample Output 2
+
+// In Range
