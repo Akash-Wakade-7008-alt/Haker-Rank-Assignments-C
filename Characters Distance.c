@@ -22,3 +22,20 @@ int main() {
     printf("The distance between %c and %c is %d",alphabet_1,alphabet_2,diff);
     return 0;
 }
+
+
+// ample Input 0
+
+// 10
+// 3
+// Sample Output 0
+
+// 10
+// Sample Input 1
+
+// 5
+// 1
+// Sample Output 1
+
+// 7
+
