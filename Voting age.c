@@ -26,3 +26,24 @@ int main() {
     }
     return 0;
 }
+
+
+Sample Input 0
+
+20
+Sample Output 0
+
+Eligible
+Sample Input 1
+
+17
+Sample Output 1
+
+Not Eligible
+Sample Input 2
+
+18
+Sample Output 2
+
+Eligible
+
