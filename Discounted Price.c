@@ -30,3 +30,19 @@ int main() {
     
     return 0;
 }
+
+// Sample Input 0
+
+// 1000 20
+// Sample Output 0
+
+// The final price is: 800.000000
+// Sample Input 1
+
+// 500 12.5
+// Sample Output 1
+
+// The final price is: 437.500000
+
+
+
