@@ -47,7 +47,7 @@ int main()
     {
         printf("Choose branch");
 
-        scanf("%c", &branch);
+        scanf(" %c", &branch);
         switch (branch)
         {
 
