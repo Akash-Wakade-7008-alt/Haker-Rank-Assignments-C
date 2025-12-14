@@ -30,43 +30,47 @@
 
 // Print the classification of the angle in terms of Acute Angle, Right Angle, Obtuse Angle, Straight Angle, Reflex Angle, or Full Rotation.
 
-int main()
-{
+int main() {
 
-    int angle;
-
-    scanf("%d", &angle);
-
-    if ((angle >= 0 && angle < 90) || (angle - 360 > 0 && angle - 360 < 90))
-    {
+int x,angle;
+    
+    scanf("%d",&x);
+    angle=x%360;
+    
+    if(x==0){
         printf("Acute Angle");
+        return 0;
     }
-
-    else if (angle == 90 || angle - 360 == 90)
-    {
-        printf("Right Angle");
-    }
-
-    else if ((angle > 90 && angle < 180) || (angle - 360 > 90 && angle - 360 < 180))
-    {
-        printf("Obtuse Angle");
-    }
-
-    else if (angle == 180 || angle - 360 == 180)
-    {
-        printf("Straight Angle");
-    }
-
-    else if ((angle > 180 && angle < 360) || (angle - 360 > 180 && angle - 360 < 360))
-    {
-        printf("Reflex Angle");
-    }
-
-    else if (angle == 360 || angle - 360 == 360)
+    
+    if(angle==0)
     {
         printf("Full Rotation");
     }
-
+    else if(angle<90)
+    {
+        printf("Acute Angle");
+    }
+    
+    else if(angle==90)
+    {
+        printf("Right Angle");
+    }
+    
+    else if(angle>90 && angle<180)
+    {
+        printf("Obtuse Angle");
+    }
+    
+    else if(angle==180)
+    {
+        printf("straight Angle");
+    }
+    
+    else if(angle>180 && angle<360)
+    {
+        printf("Reflex Angle");
+    }
+    
     return 0;
 }
 
