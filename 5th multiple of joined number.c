@@ -20,7 +20,6 @@ int combinedNumber=num_1*1000+num_2*100+num_3*10+num_4;
         return res;
 }
 
-
 int main() {
 
     int num_1=0,num_2=0,num_3=0,num_4=0;
