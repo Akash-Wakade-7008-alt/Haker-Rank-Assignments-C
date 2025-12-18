@@ -14,6 +14,7 @@ The distance between {char 1} and {char 2] is {value}
 
 int main() {
 
+
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     char alphabet_1,alphabet_2;
     
